@@ -1,0 +1,77 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+}
+.container{
+    width: 1000px;
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    margin: 20px auto;
+}
+.calculator{
+    width: 320px;
+    height: 620px;
+    background-color: #C0D6FE;
+    margin: 0 auto;
+    top: 20px;
+    padding: 25px;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.number, .sign {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 20%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number:hover{
+    background-color: rgba(255, 255, 255, 0.45);
+}
+.sign:hover{
+        background-color: rgba(255, 255, 255, 0.45);
+}
+.button {
+    border-radius: 10px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 15px;
+    float: left;
+    height: 50px;
+    padding: 10px;
+}
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.45);
+}
+.title{
+    padding: 5px;
+}
+.display{
+    display: block;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.history{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
